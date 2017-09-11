@@ -19,7 +19,7 @@ process.stdin.on('readable', function() {
         break;
       case '/system':
         OSinfo.print();
-    		break;
+        break;
       default:
         process.stderr.write('Wrong instruction!\n');
     }
